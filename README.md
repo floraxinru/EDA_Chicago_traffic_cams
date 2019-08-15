@@ -13,14 +13,19 @@ The City of Chicago has installed automatic speed cameras for Child Safety Zones
 See more information about the dataset here:https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4
 For most of the project so far, I focused on the columns 'CAMERA ID', 'VIOLATION DATE', and (number of speed) 'VIOLATIONS'.
 
-### Questions to Explore
+### Research Questions
 * 1 What is the average number of citations issued per camera, per day?
 * 2 On which day of the week are the most citations issued?
 * 3 Has the number of active cameras increased or decreased over the collection period?
 * 4 Any interesting patterns or specific outliers in the data?
 
+### Findings
+* On average, each camera issues about 26 speed violations per day. However, the camera with the highest average violations records 197 violations per day (outlier, and definitely a dangeous place for children!).
+* The highest number of citations are issued on *Saturdays*.
+* The number of active cameras per day seem to change seasonally, lowest during summertime each year. On average there are about 100 active cameras each day. The total number of active cameras increased over the collection period, from July 2014 to December 2018. 
+
 ### Further Work
-In this projetc I decided not to work with geographic data because lots of cameras are missing information for those columns. The Chicago Data Portal page for this dataset actually already included visualizations of the geographic locations of these traffic cameras, as well as a quick way to generate visualizations with Plotly. 
+In this project I decided not to work with geographic data because lots of cameras are missing information for those columns. The Chicago Data Portal page for this dataset actually already included visualizations of the geographic locations of these traffic cameras, as well as a quick way to generate visualizations with Plotly. 
 
 It would be interesting to compare how the geographic distribution of these cameras changed over time (are they reduced in areas with a low number of daily violations citations, and increased in areas with a high number of citations, for example). Also if there are similar initiatives implemented in other large cities who make their data openly available, it would be of interest to compare the effectiveness of their methods. 
 
