@@ -3,9 +3,9 @@
 ### Introduction
 This project is an exploratory data analysis (EDA) on the Speed Camera Violations dataset from the Chicago Data Portal. 
 
-**Tools and techniques used include:**
+***Tools and techniques used include:***
 
-**Python, Pandas, NumPy, Matplotlib, Datetime, Timestamps, Time series, Data Cleaning (such as grouping and sorting), Data Visualization (histograms)** 
+**Python, Pandas, NumPy, Matplotlib, Datetime, Timestamps, Time Series Analysis, Data Cleaning (such as grouping and sorting), Data Visualization (histograms)** 
 
 ### Data
 The City of Chicago has installed automatic speed cameras for Child Safety Zones. This notebook explores the dataset "Speed Camera Violations" which reflects the daily volume of violations that have occurred in Children's Safety Zones for each camera. The data reflects violations that occurred from July 1, 2014 until present, minus the most recent 14 days (updated daily). The data I used contains the collection period from July 1, 2014 to December 23, 2018. The size of the dataset used for this project is 23.5 MB.
